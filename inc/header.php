@@ -17,3 +17,4 @@
     <link rel="apple-touch-icon" href="/assets/img/icons/apple-icon-180x180.png" sizes="180x180" />
 </head>
 <body>
+  <?php require_once('./core/database/db.php'); ?>

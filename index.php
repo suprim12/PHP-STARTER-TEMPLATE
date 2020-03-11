@@ -1,4 +1,4 @@
 <?php require_once('./inc/header.php');?>
-    Hows it now does this works stills
+    HOW TO FIX DATABASE CONNECTION
 <?php require_once('./inc/footer.php');?>
 

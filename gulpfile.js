@@ -23,10 +23,11 @@ gulp.task('dev', function () {
         });
     });
 
-    gulp.watch('**/*.php').on('change', function () {
+    gulp.watch('./**/*.php').on('change', function () {
         browserSync.reload();
     });
     gulp.watch('./assets/scss/**/*.scss').on('change', style);
     gulp.watch('./assets/js/**/*.js').on('change', browserSync.reload);
 });
+
 
